@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Arial, sans-serif;
 }
 
 /* Add this CSS to style the navigation menu and create a shading effect */
@@ -37,6 +38,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative; /* Position relative is needed for the pseudo-element */
+    font-family: Arial, sans-serif;
 }
 
 /* Create a pseudo-element for the grey blur effect */
@@ -46,7 +48,7 @@ body {
     left: 0;
     top: 100%;
     width: 100%; /* Extend across the entire width of the page */
-    height: 20px; /* Adjust the height of the blur effect as needed */
+    height: 10px; /* Adjust the height of the blur effect as needed */
     background: rgba(128, 128, 128, 0.2); /* Adjust the color and opacity as needed */
     pointer-events: none;
     box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.2); /* Create a shadow effect beneath the blur */
