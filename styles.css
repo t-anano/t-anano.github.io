@@ -67,3 +67,16 @@ body {
     left: 5px;
     top: 0;
 }
+
+/* Style for right-justifying your image */
+/* Your existing styles... */
+
+/* Style for right-justifying and resizing your image */
+.right-justify {
+    float: right;
+    margin: 10px;
+    max-width: 200px; /* Set the maximum width */
+    height: auto; /* Maintain the aspect ratio */
+    /* Add any other styles for the image */
+}
+
