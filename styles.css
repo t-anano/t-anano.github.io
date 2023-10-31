@@ -82,12 +82,11 @@ footer {
 }
 
 
-/* Style for right-justifying and resizing your image */
-.right-justify {
+/* Style for right-justifying the profile picture */
+.profile-picture {
     float: right;
     margin: 10px;
-    max-width: 200px; /* Set the maximum width */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 200px; /* Adjust the size of the image as needed */
+    height: auto; /* Maintain aspect ratio */
     /* Add any other styles for the image */
 }
-
