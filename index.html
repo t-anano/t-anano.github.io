@@ -12,19 +12,11 @@
         <p>My name is Alexander, call me Alex :&#41;</p>
         <img src= "assets/images/alexnanor.JPG" alt="Profile Picture" class="right-justify">
         <!-- Add a navigation menu if needed -->
-        <label class="theme-switch">
-            <input type="checkbox" id="theme-toggle">
-            <span class="slider round"></span>
-        </label>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
     </header>
-
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-toggle" class="hidden">
+        <label for="theme-toggle" class="crescent"></label>
+    </div>
     <main>
         <section>
             <h2>About Me</h2>
@@ -46,6 +38,9 @@
     </footer>
 
     <!-- Add your custom JavaScript here, or link to an external JavaScript file -->
-    <script src="theme-toggle.js"></script>
+    <script>const themeToggle = document.getElementById("theme-toggle");
+        themeToggle.addEventListener("change", () => {
+            document.body.classList.toggle("light-theme");
+        });</script> 
 </body>
 </html>

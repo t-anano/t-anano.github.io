@@ -1,57 +1,4 @@
-/* Add styles for the theme toggle switch */
-.theme-switch {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.theme-switch input[type="checkbox"] {
-    display: none;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: #fff;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input[type="checkbox"]:checked + .slider {
-    background-color: #3498db; /* Blue color for the "light" theme */
-}
-
-input[type="checkbox"]:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-
-/* Styles for right-justifying your picture */
-.right-justify {
-    float: right;
-    margin: 10px;
-    /* Add any other styles for the image */
-}
-
-/* Rest of your styles... */
-
+/* Reset some default browser styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -64,65 +11,59 @@ body {
     transition: background-color 0.5s ease; /* Smooth background color transition on scroll */
 }
 
-header {
-    background-color: transparent;
+/* Styles for the top navigation menu */
+.top-nav {
+    background-color: #111; /* Dark gray background color */
     color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    transition: background-color 0.5s ease; /* Smooth background color transition on scroll */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header.scrolled {
-    background-color: #222; /* Darker background color when scrolled */
-}
-
-nav ul {
+.top-nav ul {
     list-style: none;
+    display: flex;
 }
 
-nav li {
-    display: inline;
+.top-nav li {
     margin-right: 20px;
 }
 
-nav a {
+.top-nav a {
     text-decoration: none;
-    color: #3498db; /* Blue link color */
-    font-weight: bold;
+    color: #fff;
 }
 
-main {
-    max-width: 800px;
-    margin: 100px auto 20px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #fff; /* White text color */
+/* Styles for the theme toggle */
+.theme-toggle {
+    position: relative;
+    width: 50px;
+    height: 25px;
 }
 
-h2 {
-    margin-top: 20px;
+.theme-toggle .hidden {
+    display: none;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: transparent;
-    color: #3498db; /* Blue text color in the footer */
+.theme-toggle .crescent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
 }
 
-/* Add smooth scrolling effect */
-main {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s ease, transform 1s ease;
-}
-
-main.visible {
-    opacity: 1;
-    transform: translateY(0);
+.theme-toggle .crescent::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background-color: #3498db;
+    border-radius: 50%;
+    left: 5px;
+    top: 0;
 }
