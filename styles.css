@@ -98,7 +98,7 @@ main {
 }
 .experience-list {
     list-style-type: disc; /* Use bullets (disc) for list items */
-    padding-left: 20px; /* Adjust the padding as needed to control the spacing between the bullet and text */
+    padding-left: 10px; /* Adjust the padding as needed to control the spacing between the bullet and text */
     margin-bottom: 20px;
 }
 
