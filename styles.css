@@ -128,6 +128,11 @@ main {
     height: auto;
 }
 
+.small-image {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 h2 {
     margin-top: 20px;
 }
