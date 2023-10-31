@@ -3,7 +3,14 @@ body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
-
+/* Style for right-justifying the profile picture */
+.profile-picture {
+    float: right;
+    margin: 10px;
+    max-width: 200px; /* Adjust the size of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Add any other styles for the image */
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #192841; /* Navy blue background color */
@@ -82,11 +89,4 @@ footer {
 }
 
 
-/* Style for right-justifying the profile picture */
-.profile-picture {
-    float: right;
-    margin: 10px;
-    max-width: 200px; /* Adjust the size of the image as needed */
-    height: auto; /* Maintain aspect ratio */
-    /* Add any other styles for the image */
-}
+
