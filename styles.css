@@ -102,6 +102,30 @@ main {
     margin-bottom: 20px;
 }
 
+.projects-section {
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project {
+    flex: 0 0 calc(50% - 20px); /* Two projects per row with spacing */
+    background: #f9f9f9; /* Background color for each project */
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
 
 h2 {
     margin-top: 20px;
