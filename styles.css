@@ -56,8 +56,9 @@ body {
 
 
 .site-name {
-    color: #fff; /* White text color for your name */
+    color: #000000; /* Black text color for your name */
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .top-nav ul {
