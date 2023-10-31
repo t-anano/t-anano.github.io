@@ -42,7 +42,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
+    background-color:rgba(0, 116, 228, 0.7);; /* Semi-transparent blue background */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
