@@ -19,6 +19,29 @@ body {
     align-items: center;
 }
 
+/* Add this CSS to style the navigation menu and create a shading effect */
+.top-nav {
+    background-color: #333; /* Dark grey background color for the menu */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Position relative is needed for the pseudo-element */
+}
+
+/* Create a pseudo-element for the shading effect */
+.top-nav::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px; /* Adjust the height of the shading as needed */
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+    pointer-events: none; /* Prevent the pseudo-element from blocking clicks */
+}
+
+
 .site-name {
     color: #fff; /* White text color for your name */
     margin: 0;
