@@ -92,20 +92,15 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color:rgba(0, 116, 228, 0.7);; /* Semi-transparent blue background */
+    background-color:rgba(0, 116, 228, 0.7); /* Semi-transparent blue background */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .experience-list {
     list-style-type: disc; /* Use bullets (disc) for list items */
     padding-left: 20px; /* Adjust the padding as needed to control the spacing between the bullet and text */
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-
-.experiences-section{
-    text-align: left;
-}
-
 
 
 h2 {
