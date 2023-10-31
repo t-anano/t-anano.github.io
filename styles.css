@@ -91,5 +91,18 @@ footer {
     color: #fff;
 }
 
+/* Style for the copyright information */
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333; /* Background color for the copyright notice */
+    color: #fff; /* Text color for the copyright notice */
+    padding: 10px;
+    text-align: center;
+}
+
+
 
 
