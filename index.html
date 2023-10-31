@@ -2,44 +2,63 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Alexander's Portfolio Site</title>
+    <title>Your GitHub Pages Site</title>
     <!-- Add your custom CSS styles here, or link to an external stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <!-- Top navigation menu -->
     <header class="top-header">
         <nav class="top-nav">
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">Projects</a></li>
             </ul>
         </nav>
-    <img src = "assets/images/alexnanor.JPG" alt="Profile" class=".right-justify">
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is where you can introduce yourself and provide some information about your project.</p>
-        </section>
+        <h1 class="site-name">Your Name</h1>
+    </header>
 
-        <section>
-            <h2>Latest Updates</h2>
-            <ul>
-                <li><a href="#">Post 1</a></li>
-                <li><a href="#">Post 2</a></li>
-                <li><a href="#">Post 3</a></li>
-            </ul>
-        </section>
-    </main>
+    <!-- Profile Picture (Right-justified) -->
+    <img src="profile-picture.jpg" alt="Your Profile Picture" class=".right-justify">
 
+    <!-- About Section -->
+    <section class="about-section">
+        <h2>About Me</h2>
+        <!-- Your About section content goes here -->
+    </section>
+
+    <!-- Experiences Section -->
+    <section class="experiences-section">
+        <h2>Experiences</h2>
+        <!-- Your Experiences section content goes here -->
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <h2>Projects</h2>
+        <!-- Project 1 -->
+        <div class="project">
+            <img src="project1-image.jpg" alt="Project 1 Image">
+            <p>APIs Used: API1, API2</p>
+            <p>Project Description</p>
+            <a href="project1-repo-link" target="_blank">Repository Link</a>
+        </div>
+
+        <!-- Project 2 (Add more projects as needed) -->
+        <div class="project">
+            <img src="project2-image.jpg" alt="Project 2 Image">
+            <p>APIs Used: API3, API4</p>
+            <p>Project Description</p>
+            <a href="project2-repo-link" target="_blank">Repository Link</a>
+        </div>
+    </section>
+
+    <!-- Rest of your content -->
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2023 Alexander Nanor</p>
     </footer>
-
-    <!-- Add your custom JavaScript here, or link to an external JavaScript file -->
-    <script>const themeToggle = document.getElementById("theme-toggle");
-        themeToggle.addEventListener("change", () => {
-            document.body.classList.toggle("light-theme");
-        });</script> 
 </body>
 </html>
