@@ -10,6 +10,7 @@ body, h1, h2, p, ul, li {
     height: 150px;
     border-radius: 50%; /* Makes the element round */
     overflow: hidden; /* Clips the image within the round shape */
+    float: right; 
 }
 
 .profile-photo img {
