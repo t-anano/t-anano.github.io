@@ -77,6 +77,42 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.2); /* Create a shadow effect beneath the blur */
 }
 
+.button-section {
+    text-align: center;
+}
+
+.oval-button {
+    display: inline-block;
+    background-color: #0073e6; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 50px; /* Create oval shape using a large border radius */
+    padding: 10px 20px; /* Adjust padding to control button size */
+    margin: 10px; /* Add margin for spacing between buttons */
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.oval-button:hover {
+    background-color: #0059b3; /* Button background color on hover */
+}
+
+.github-button {
+    background-color: #333; /* Customize color for the GitHub button */
+}
+
+.linkedin-button {
+    background-color: #0077b5; /* Customize color for the LinkedIn button */
+}
+
+.email-button {
+    background-color: #ff4c4c; /* Customize color for the Email button */
+}
+
+.resume-button {
+    background-color: #4caf50; /* Customize color for the Resume button */
+}
 
 .site-name {
     color: #ffffff; /* White text color for name */
