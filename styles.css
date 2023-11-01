@@ -11,14 +11,14 @@ body, h1, h2, p, ul, li {
     border-radius: 50%; /* Makes the element round */
     overflow: hidden; /* Clips the image within the round shape */
     margin-left: auto; 
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .profile-photo img {
     width: 100%; /* Ensures the image fills the circular shape */
     height: 100%;
     object-fit: cover; /* Maintains the aspect ratio and covers the circular area */
-    border: 2px solid #fff; /* Optional: Add a border around the circular photo */
+    border: 4px solid #fff; /* Optional: Add a border around the circular photo */
 }
 
 
