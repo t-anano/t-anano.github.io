@@ -118,6 +118,8 @@ main {
 
 .projects-section {
     text-align: left;
+    border-radius: 10px; /* Set the border radius to round out the edges */
+    padding: 20px; /* Add padding for spacing */
 }
 
 .project-container {
