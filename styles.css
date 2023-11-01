@@ -118,9 +118,7 @@ main {
 
 .projects-section {
     text-align: left;
-    border-radius: 10px; /* Set the border radius to round out the edges */
-    padding: 20px; /* Add padding for spacing */
-}
+    
 
 .project-container {
     display: flex;
@@ -137,6 +135,9 @@ main {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
     margin-bottom: 20px;
+    border-radius: 10px; /* Set the border radius to round out the edges */
+    padding: 20px; /* Add padding for spacing */
+}
 }
 
 .project img {
