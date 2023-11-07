@@ -118,7 +118,7 @@ body {
 .site-name {
     color: #ffffff; /* White text color for name */
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .top-nav ul {
