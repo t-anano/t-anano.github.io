@@ -51,10 +51,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* Add this CSS to style the navigation menu and create a shading effect */
+/* Added this CSS to style the navigation menu and create a shading effect */
 .top-nav {
     background-color: #1b1b1b; /* Dark grey background color for the menu */
     padding: 10px 20px;
@@ -62,7 +62,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative; /* Position relative is needed for the pseudo-element */
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Create a pseudo-element for the grey blur effect */
