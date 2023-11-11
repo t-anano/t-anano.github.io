@@ -1,8 +1,10 @@
-const themeToggle = document.getElementById("theme-toggle");
-themeToggle.addEventListener("change", () => {
-    if (themeToggle.checked) {
-        document.body.classList.add("light-theme");
+// script.js
+function toggleTheme() {
+    const themeStyle = document.getElementById('theme-style');
+    if (themeStyle.getAttribute('href') === 'styles.css') {
+        themeStyle.setAttribute('href', 'styles-light.css');
     } else {
-        document.body.classList.remove("light-theme");
+        themeStyle.setAttribute('href', 'styles.css');
     }
-});
+}
+
