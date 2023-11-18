@@ -1,1 +1,1 @@
-# GHPages
+# GitHubPages
